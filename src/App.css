@@ -104,6 +104,10 @@ div.fixedItems::-webkit-scrollbar {
   width: 40%;
   height:auto;
 }
+.softenRow{
+  margin-right: 15px;
+  margin-left: 15px;
+}
 @media (min-width:767px){
   .padTop{
     padding-top: 8em;

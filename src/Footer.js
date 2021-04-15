@@ -6,7 +6,7 @@ import { yellow } from '@material-ui/core/colors';
 const Footer = () => {
     return ( 
         <div>
-             <div className="bg-primary row mt-5">
+             <div className="bg-primary row mt-5 softenRow">
                     <div className="container padIn">
                         <div className="row">
                             <div className="col-4  pt-4 pb-4">
