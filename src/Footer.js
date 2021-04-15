@@ -7,17 +7,17 @@ const Footer = () => {
     return ( 
         <div>
              <div className="bg-primary row mt-5">
-                    <div className="container text-center padIn">
+                    <div className="container padIn">
                         <div className="row">
-                            <div className="col-md-4  pt-4 pb-4">
+                            <div className="col-4  pt-4 pb-4">
                                 <DoneAllOutlinedIcon style={{fontSize:'40px',color:yellow[500]}}/>
                                 <p className="featuredTitle">Sterling Products</p>
                             </div>
-                            <div className="col-md-4 pb-4 pt-4">
+                            <div className="col-4 pb-4 pt-4">
                                 <LockOpenOutlinedIcon style={{fontSize:'40px',color:yellow[500]}}/>
                                 <p className="featuredTitle">Buyer Protection</p>
                             </div>
-                            <div className="col-md-4 pb-4 pt-4">
+                            <div className="col-4 pb-4 pt-4">
                                 <LocalShippingOutlinedIcon style={{fontSize:'40px',color:yellow[500]}}/>
                                 <p className="featuredTitle">Fastest Delivery</p>
                             </div>

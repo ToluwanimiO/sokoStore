@@ -46,9 +46,9 @@ const ProductList = (props) => {
             <div className="shadow border row mb-5" key={index}>
             <Link to={`/product/${index%3}`} className="col-md-3 mb-1" style={{backgroundImage:`url(${products[index%3]})`,backgroundSize:'cover'}}>
             </Link>
-            <div className="d-lg-none mt-2">
-                <img src={products[index%3]} width="100%" height="150px"/>
-            </div>
+            <Link to={`/product/${index%3}`} className="d-lg-none mt-2 text-center pt-3">
+                <img src={products[index%3]} width="70%" height="200px"/>
+            </Link>
             <div className="col-md-6 pt-3 pb-5 text-left">
                 Description Title of Product <br/>
                 <font className="smallFont">UGX 130,000</font>

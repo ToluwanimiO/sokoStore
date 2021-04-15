@@ -97,12 +97,25 @@ div.fixedItems::-webkit-scrollbar {
   padding-top: 10px;
 }
 .padIn{
-  padding-left: 11em;
-  padding-right: 11em;
+  padding-left: 2em;
+  padding-right: 0em;
+}
+.relatedImage{
+  width: 40%;
+  height:auto;
 }
 @media (min-width:767px){
   .padTop{
     padding-top: 8em;
+  }
+  .padIn{
+    padding-left: 11em;
+    padding-right: 11em;
+    text-align: center;
+  }
+  .relatedImage{
+    width: 20%;
+    height: 250px;
   }
 }
 @keyframes App-logo-spin {
