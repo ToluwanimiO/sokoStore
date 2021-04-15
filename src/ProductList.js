@@ -90,7 +90,7 @@ const ProductList = (props) => {
                         </Tabs>
                     </div>
                     </div>
-                    <div className="d-lg-none pl-5 pt-2 d-sm-flex justify-content-between mt-5">
+                    <div className="d-lg-none pl-5 pt-2 d-sm-flex justify-content-between">
                     <FormControl className={classes.formControl}>
                         <InputLabel id="demo-simple-select-label">Categories</InputLabel>
                         <Select
@@ -129,9 +129,10 @@ const ProductList = (props) => {
                         </span>  
                     </div>
                 </div>
-               <Footer/>
+               
 
             </div>
+            <Footer/>
         </div>
      );
 }
