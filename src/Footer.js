@@ -6,9 +6,9 @@ import { yellow } from '@material-ui/core/colors';
 const Footer = () => {
     return ( 
         <div>
-             <div className="bg-primary row mt-5 softenRow">
+             <div className="bg-primary  mt-5">
                     <div className="container padIn">
-                        <div className="row">
+                        <div className="row softenRow">
                             <div className="col-4  pt-4 pb-4">
                                 <DoneAllOutlinedIcon style={{fontSize:'40px',color:yellow[500]}}/>
                                 <p className="featuredTitle">Sterling Products</p>
